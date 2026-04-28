@@ -7,6 +7,7 @@ from typing_extensions import override
 
 from .listener import ExampleListener
 
+
 class ExamplePlugin(Plugin):
     # The prefix shown in log messages, e.g. [ExamplePlugin] Hello!
     prefix = "ExamplePlugin"

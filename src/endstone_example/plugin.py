@@ -3,7 +3,7 @@
 from endstone import Player
 from endstone.command import Command, CommandSender, ConsoleCommandSender
 from endstone.plugin import Plugin
-from typing_extensions import override
+from typing_extensions import override 
 
 from .listener import ExampleListener
 

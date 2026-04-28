@@ -9,6 +9,7 @@ from endstone import ColorFormat
 from endstone.event import EventPriority, PlayerJoinEvent, PlayerQuitEvent, event_handler
 from endstone.plugin import Plugin
 
+
 class ExampleListener:
     def __init__(self, plugin: Plugin) -> None:
         # Keep a reference to the plugin so we can use its logger and config.

@@ -3,7 +3,7 @@
 Listeners are separate classes (not the Plugin itself) that hold @event_handler
 methods. Register them in on_enable with self.register_events(). This keeps
 event handling logic organized and out of the main plugin class.
-""" 
+"""  
 
 from endstone import ColorFormat
 from endstone.event import EventPriority, PlayerJoinEvent, PlayerQuitEvent, event_handler
